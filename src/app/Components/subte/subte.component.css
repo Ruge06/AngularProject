@@ -1,0 +1,57 @@
+.Contenedor
+{
+  height: 150vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+}
+
+
+.screen
+{
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    width: 390px;
+    height: 830px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p2
+{
+    background-image: linear-gradient(#fff, #52c15fbe, #173519be), url(\src\assets\IMG\Indugel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#t1
+{
+    z-index: 2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 0%;
+}
+
+.I2
+{
+    z-index: 1;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.but
+{
+    
+    height: 50px;
+    width: 390px;
+    background-color: #addfa7;
+    border: 0ch;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
